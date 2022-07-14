@@ -6,6 +6,7 @@ namespace CalculatorWithConsole
     {
         static void Main(string[] args)
         {
+
             Hesaplama H1 = new Hesaplama();
             Console.WriteLine("******Hesap Makinesi Uygulamasına Hoşgeldiniz******");
             System.Threading.Thread.Sleep(2000);
