@@ -42,6 +42,7 @@ namespace CalculatorWithConsole
                 decimal s1 = Convert.ToDecimal(Console.ReadLine());
                 Console.Write("İkinci Sayıyı Giriniz: ");
                 decimal s2 = Convert.ToDecimal(Console.ReadLine());
+                
                 switch (yapılacakislem)
                 {
 
