@@ -6,6 +6,7 @@ namespace CalculatorWithConsole
     {
         static void Main(string[] args)
         {
+
             Hesaplama H1 = new Hesaplama();
             Console.WriteLine("******Hesap Makinesi Uygulamasına Hoşgeldiniz******");
             System.Threading.Thread.Sleep(2000);
@@ -16,6 +17,7 @@ namespace CalculatorWithConsole
             Hesaplama.Menü();
             int yapılacakislem = Convert.ToInt32(Console.ReadLine());
             decimal sonuc = 0;
+            
             if (yapılacakislem == 5 || yapılacakislem == 6)
             {
                 Console.Write("İşlem Yapılacak Sayıyı Giriniz: ");
@@ -83,6 +85,7 @@ namespace CalculatorWithConsole
                     Environment.Exit(0);
                 }
             }
+            
             Console.Write("Tekrar İşlem Yapmak İster Misiniz?(E/H)");
             string secim2 = Console.ReadLine();
             secim2 = secim2.ToUpper();
